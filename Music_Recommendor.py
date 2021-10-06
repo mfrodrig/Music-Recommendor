@@ -174,7 +174,7 @@ class OpenWeatherApi():
     
     def __init__(self):
         self.baseurl = "https://api.openweathermap.org/data/2.5/weather?"
-        self.apiKey = "7191b26aff0c0f735850bf3b6bb07a7d"
+        self.apiKey = "a9429e7230e34bb49b7de4c183782073"
     
     def __formRequest(self, query, lsParams):
         qPar = ",".join(lsParams)
